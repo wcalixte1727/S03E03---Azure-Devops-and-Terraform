@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Binarythistle Docker Hub'
+        containerRegistry: 'wcalixte Docker Hub'
         repository: '17272717/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
